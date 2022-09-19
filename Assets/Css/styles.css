@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans:wght@300&display=swap');
+
+/*Header*/
+
+.bg-white {
+    background-color: #9dab34 !important;
+}
+
+.text-dark {
+    color: rgb(237, 225, 202) !important;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+/*Container*/
+
+.bg-light {
+    background-color: rgb(230, 221, 220) !important;
+}
+
+.display-4,
+h4 {
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 30px;
+}
+
+.Instrucciones {
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    line-height: 2.5rem;
+    font-size: larger;
+    padding: auto;
+}
+
+/*Formulario*/
+
+.form-group {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: larger;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 12pt;
+    margin-bottom: 30pt;
+    border-radius: 25pt;
+    padding: 1.25rem;
+    height: 50pt;
+    width: 200pt;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+
+}
+
+.btn-primary {
+    color: rgb(77, 74, 74);
+    background-color: #9dab34;
+    border-color: #9dab34;
+}
+
+.btn-light {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 10pt;
+    border-radius: 25pt;
+    border-style: none;
+    padding: 1rem;
+    color: white;
+    background-color: #878080;
+    border-color: #878080;
+    margin-top: .5rem;
+    width: 10rem;
+}
+
+.btn-dark {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 10pt;
+    border-radius: 25pt;
+    border-style: none;
+    padding: 1rem;
+    color: rgb(77, 74, 74);
+    background-color: #dda223;
+    border-color: #dda223;
+    margin-right: 2rem;
+    width: 10rem;
+}
+
+/*Listado*/
+
+th {
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 50pt;
+}
+
+.list-group {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+.lista {
+    width: 100%;
+}
+
+.list {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25pt;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+/*Footer*/
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+}
