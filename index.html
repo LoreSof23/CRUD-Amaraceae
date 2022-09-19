@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATÁLOGO AMARACEAE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/Css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
+            <img src="Assets/Css/Images/LogoAmaracea.svg" width="180" height="60" class="my-0 mr-md-auto">
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="#">¿Quiénes somos?</a>
+                <a class="p-2 text-dark" href="#">Proyectos</a>
+                <a class="p-2 text-dark" href="#">Catálogo</a>
+                <a class="p-2 text-dark" href="#">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Container -->
+
+    <div class="position-relative overflow-hidden text-center bg-light">
+        <div class="col-md-9 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">REGISTRO DE PRODUCTOS</h1>
+            <h4> → Registra, edita o elimina de forma fácil y rápida tus productos disponibles.</h4>
+            <div class="col-md-12">
+            </div>
+            <!-- Formulario -->
+
+            <form>
+                <div class="form-group">
+                    <label for="txtProducto">PRODUCTO:</label>
+                    <input type="email" class="form-control" id="txtProducto">
+                    <button onclick="guardar()" class="btn btn-primary btn-block mt-5" type="button">AGREGAR</button>
+                </div>
+                <!--<button type="button" class="btn btn-dark mr-2" onclick="agregarProducto()">EDITAR</button>
+                <button type="button" class="btn btn-light ml-2" onclick="limpiarStorage()">ELIMINAR</button>
+                <div class="col-md-9 mt-3">
+                    <ul class="list-group" id="lista">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            A list item
+                            <button type="button" class="btn btn-secondary btn-sm"> X</button>
+                        </li>
+                    </ul>
+                </div>
+            -->
+                <div class="row mt-3">
+                    <div class="col-sm-6 mx-auto">
+                        <h4 class="list">CATÁLOGO DE PRODUCTOS</h4>
+                        <table class="table table-bordered mt-4" aria-describedby="Productos">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>PRODUCTO</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tblProductos">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="text-muted">
+        <div class="footer">
+            <p>Si tienes dudas para escribir un catálogo puedes escribirnos a listados@correo.com</p>
+            <p>Listados™<a href="/"> Visita nuestra página principal</a> o lee nuestro Blog <a
+                    href="/docs/4.6/getting-started/introduction/">Guía detallada paso a paso</a>.</p>
+        </div>
+    </footer>
+</body>
+
+<script src="assets/js/main.js"></script>
+
+</html>
